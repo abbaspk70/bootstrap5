@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="resources/owlCarousel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="resources/owlCarousel/assets/owl.theme.default.css" />
+  
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/FontAwesome/css/all.min.css" />
+ 
+  <script src="resources/jQuery/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <!-- block Navbar-block -->
+  <div class="block block--photography-menu">
+    <div class="container-fluid g-0">
+      <header class="top d-none d-sm-block">
+        <img src="assets/images/logo@2x.png" width="55" alt="finch" />
+      </header>
+      <section>
+        <nav class="navbar navbar-expand-sm bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand d-sm-none" href="#">
+              <img src="assets/images/logo@2x.png" width="55" alt="finch" />
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </div>
+  </div>
+  <!-- block Carousel-block -->
+  <section class="mt-3 mt-md-5">
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/art/slider-bg1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/art/slider-bg2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/art/slider-bg3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- block Gallery-block -->
+  <section clas="">
+    <div class="container mt-5">
+      <h1 class="text-center">Hello! We are Finch Studio</h1>
+      <p class="lead main text-center">
+        We are a digital photography studio specializing in landscape,
+        advertorial and conceptual photography, based in New York. We love to
+        turn ideas into beautiful things.
+      </p>
+      <div class="portfolio">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="section-title">OUR AWESOME SHOTS</h3>
+          </div>
+
+          <nav aria-label="breadcrumb" class="col-md-8 d-flex button-group ms-auto
+              justify-content-lg-end" id="filters">
+            <ol class="breadcrumb">
+              <button data-filter="*" class="breadcrumb-item button text-uppercase active">
+                <span>All</span></button><button data-filter=".web" class="breadcrumb-item button text-uppercase">
+                <span>web design</span></button><button data-filter=".graphic"
+                class="breadcrumb-item button text-uppercase">
+                <span>graphic design</span></button><button data-filter=".motion"
+                class="breadcrumb-item button text-uppercase">
+                <span>motion graphics</span></button><button data-filter=".photography"
+                class="breadcrumb-item button text-uppercase">
+                <span>photography</span>
+              </button>
+            </ol>
+          </nav>
+        </div>
+        <div class="isotopes items">
+          <div class="item grid-item--width2 grid-item--height2 web">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Fringilla Fermentum Sem</span></div>
+                </div>
+                <img class="" src="assets/images/art/p1.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item graphic">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Vestibulum Tellus</span></div>
+                </div>
+                <img class="" src="assets/images/art/p2.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item grid-item--height2 web">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Etiam Quam</span></div>
+                </div>
+                <img class="" src="assets/images/art/p3.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item motion">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Consectetur Justo</span></div>
+                </div>
+                <img class="" src="assets/images/art/p4.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item grid-item--height2 web">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Etiam Quam</span></div>
+                </div>
+                <img class="" src="assets/images/art/p5.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item photography">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Fusce Ornare Lorem</span></div>
+                </div>
+                <img class="" src="assets/images/art/p6.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item web">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Sit Amet Ridiculus</span></div>
+                </div>
+                <img class="" src="assets/images/art/p7.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item grid-item--height2 graphic">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Malesuada Dolor Nibh</span></div>
+                </div>
+                <img class="" src="assets/images/art/p8.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item grid-item--width2 grid-item--height2 motion">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info">
+                    <span>Ridiculus Lorem Consectetur</span>
+                  </div>
+                </div>
+                <img class="" src="assets/images/art/p9.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item graphic">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info"><span>Bibendum Purus</span></div>
+                </div>
+                <img class="" src="assets/images/art/p10.jpg" />
+              </a>
+            </figure>
+          </div>
+          <div class="item photography">
+            <figure>
+              <a href="/">
+                <div class="text-overly">
+                  <div class="info">
+                    <span>Pellentesque Etiam Egestas</span>
+                  </div>
+                </div>
+                <img class="" src="assets/images/art/p11.jpg" />
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <h3 class="section-title text-center mt-md-5 mt-3">
+        LET'S MAKE SOMETHING GREAT TOGETHER
+      </h3>
+      <div class="text-center">
+        <a href="#" class="btn btn-secondary fixed-width mr-1">View More Work</a>
+        <a href="#" class="btn btn-info fixed-width">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+  <!-- block Services-block -->
+  <section class="dark-wrapper services pt-3 pt-md-5 mt-5">
+    <div class="container">
+      <h3 class="section-title">what we do</h3>
+      <div class="services-1">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="icon"><i class="wedding-icon icn"></i></div>
+            <div class="text">
+              <h3>Wedding Photography</h3>
+              <p>
+                Nulla vitae libero, a pharetra augue. Integer posuere a ante
+                venenatis condimentum. Donec id elit non mi porta gravida
+                metus.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="icon"><i class="birth-icon icn"></i></div>
+            <div class="text">
+              <h3>Birth Photography</h3>
+              <p>
+                Vestibulum id ligula porta euismod semper. Aenean lacinia
+                bibendum vestibulum. Cum sociis natoque penatibus et
+                parturient.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="icon"><i class="food-icon icn"></i></div>
+            <div class="text">
+              <h3>Food Photography</h3>
+              <p>
+                Aenean eu leo quam. Pellente ornare sem lacinia quam venenatis
+                vestibulum sagittis montes, nascetur ridiculus mus.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="icon"><i class="fashion-icon icn"></i></div>
+            <div class="text">
+              <h3>Fashion Photography</h3>
+              <p>
+                Fusce dapibus commodo, tortor mauris condimentum nibh, ut
+                fermentum massa. Maecenas sed diam eget risus varius blandit.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="icon"><i class="jewelery-icon icn"></i></div>
+            <div class="text">
+              <h3>Jewelery Photography</h3>
+              <p>
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Vestibulum id ligula porta felis sit amet non magna sit amet
+                tortor sagittis.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="icon"><i class="drink-icon icn"></i></div>
+            <div class="text">
+              <h3>Drink Photography</h3>
+              <p>
+                Morbi leo risus, porta ac consectetur ac at eros. Cras mattis
+                consectetur purus. Cras mattis consectetur purus fermentum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- block Feedback-block -->
+  <section class="d-block">
+    <div class="parallax customers py-3 py-md-5" style="background-image: url('assets/images/art/parallax2.jpg')">
+      <div class="container text-center px-1 px-md-5">
+        <h3 class="section-title">what our customers think about us</h3>
+        <div class="owl-carousel testimonials owl-theme">
+          <blockquote>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Maecenas sed diam eget risus varius blandit sit amet non magna.
+              Fusce dapibus, tellus ac cursus commodo.<small>
+                Ridiculus Ultricies Pellentesque
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Etiam porta sem malesuada magna mollis euismod. Cras mattis
+              consectetur purus sit amet fermentum<small>
+                Tristique Purus Pharetra
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Curabitur blandit tempus porttitor. Cras justo odio, dapibus
+              ac facilisis in, egestas eget quam.<small>
+                Inceptos Porta Nibh
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Etiam porta sem malesuada magna mollis euismod. Cras mattis
+              consectetur purus sit amet fermentum<small>
+                Tristique Purus Pharetra
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Curabitur blandit tempus porttitor. Cras justo odio, dapibus
+              ac facilisis in, egestas eget quam.<small>
+                Inceptos Porta Nibh
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis
+              vestibulum. Sed posuere consectetur est at lobortis. Curabitur
+              blandit tempus porttitor.<small>
+                Adipiscing Mollis Inceptos
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Maecenas sed diam eget risus varius blandit sit amet non magna.
+              Fusce dapibus, tellus ac cursus commodo.<small>
+                Ridiculus Ultricies Pellentesque
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Etiam porta sem malesuada magna mollis euismod. Cras mattis
+              consectetur purus sit amet fermentum<small>
+                Tristique Purus Pharetra
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Curabitur blandit tempus porttitor. Cras justo odio, dapibus
+              ac facilisis in, egestas eget quam.<small>
+                Inceptos Porta Nibh
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Etiam porta sem malesuada magna mollis euismod. Cras mattis
+              consectetur purus sit amet fermentum<small>
+                Tristique Purus Pharetra
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Curabitur blandit tempus porttitor. Cras justo odio, dapibus
+              ac facilisis in, egestas eget quam.<small>
+                Inceptos Porta Nibh
+              </small>
+            </p>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis
+              vestibulum. Sed posuere consectetur est at lobortis. Curabitur
+              blandit tempus porttitor.<small>
+                Adipiscing Mollis Inceptos
+              </small>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- block Posts-block -->
+  <section>
+    <div class="container">
+      <h3 class="section-title mt-3 mt-md-5">our features posts</h3>
+      <div class="latest-blog-wrapper">
+        <div class="row latest-blog" data-isotope='{ "itemSelector": ".post", "layoutMode": "fitRows" }'>
+          <div class="post col-sm-12 col-md-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <figure class="icon-overlay">
+                  <a href="Adipiscing Mollis Inceptos.html"><span class="icn-more"></span><img class="w-100"
+                      src="assets/images/art/b1.jpg" /></a>
+                </figure>
+              </div>
+              <div class="col-sm-8 post-content">
+                <h3 class="post-title">
+                  <a href="/AdipiscingMollisInceptos.html">Adipiscing Mollis
+                    Inceptos</a>
+                </h3>
+                <div class="meta">
+                  <span class="date">13 Nov, 2012</span>
+                  <span class="comments">
+                    <a href="AdipiscingMollisInceptos.html">3
+                      Comments
+                    </a>
+                    </span>
+                </div>
+                <p>
+                  Aenean leo quam. Pellentesque ornare sem lacinia quam
+                  venenatis vestibulum. Sed posuere consectetur est at
+                  lobortis. Curabitur blandit tempus porttitor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="post col-sm-12 col-md-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <figure class="icon-overlay">
+                  <a href="RidiculusUltriciesPellentesque.html"><span class="icn-more"></span><img class="w-100"
+                      src="assets/images/art/b2.jpg" /></a>
+                </figure>
+              </div>
+              <div class="col-sm-8 post-content">
+                <h3 class="post-title">
+                  <a href="RidiculusUltriciesPellentesque.html">Ridiculus
+                    Ultricies Pellentesque</a>
+                </h3>
+                <div class="meta">
+                  <span class="date">14 Dec, 2014</span><span class="comments"><a
+                      href="RidiculusUltriciesPellentesque.html">3 Comments</a></span>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna. Fusce dapibus, tellus ac cursus commodo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="post col-sm-12 col-md-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <figure class="icon-overlay">
+                  <a href="TristiquePurusPharetra.html"><span class="icn-more"></span><img class="w-100"
+                      src="assets/images/art/b3.jpg" /></a>
+                </figure>
+              </div>
+              <div class="col-sm-8 post-content">
+                <h3 class="post-title">
+                  <a href="TristiquePurusPharetra.html">Tristique Purus
+                    Pharetra</a>
+                </h3>
+                <div class="meta">
+                  <span class="date">25 April, 2015</span><span class="comments"><a href="TristiquePurusPharetra.html">5
+                      Comments</a>
+                  </span>
+                </div>
+                <p>
+                  Morbi leo risus, porta ac consectetur ac, vestibulum at
+                  eros. Etiam porta sem malesuada magna mollis euismod. Cras
+                  mattis consectetur purus sit amet fermentum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="post col-sm-12 col-md-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <figure class="icon-overlay">
+                  <a href="InceptosPortaNibh.html"><span class="icn-more"></span><img class="w-100"
+                      src="assets/images/art/b4.jpg" /></a>
+                </figure>
+              </div>
+              <div class="col-sm-8 post-content">
+                <h3 class="post-title">
+                  <a href="InceptosPortaNibh.html">Inceptos Porta Nibh</a>
+                </h3>
+                <div class="meta">
+                  <span class="date">08 March, 2011</span><span class="comments"><a href="InceptosPortaNibh.html">2
+                      Comments</a></span>
+                </div>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur et. Curabitur blandit tempus porttitor. Cras
+                  justo odio, dapibus ac facilisis in, egestas eget quam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- block Footer-block -->
+  <section class="mt-3 mt-md-5">
+    <footer class="footer black-wrapper widget-footer">
+      <div class="container p-3 py-5 p-md-5">
+        <div class="text-center">
+          <h3 class="section-title text-center">get in touch with us</h3>
+          <p>
+            Maecenas faucibus molli interdum. Cras mattis consectetur purus
+            sitor amet sed donec malesuada ullamcorper odio. Curabitur blandit
+            tempus porttitor vollisky inceptos mollisestor.
+          </p>
+          <ul class="social my-3 my-md-5">
+            <li>
+              <a href="#"><i class="icon-s-rss"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-s-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-s-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-s-dribbble"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-s-pinterest"></i></a>
+            </li>
+          </ul>
+          <div class="contact-info">
+            <span> Moonshine St. 14/05 Light City </span><span>+00 (123) 456
+              78 90 </span><span>
+              <a href="mailto://first.last@email.com">first.last@email.com
+              </a></span>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="container">
+          <p class="text-center">
+            © 2014 Zonya. All rights reserved. Theme by
+            <a href="http://elemisfreebies.com">elemis</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="js/navbar.js"></script>
+  <script src="resources/isotopes/isotope.pkgd.min.js"></script>
+  <script src="js/isotopes.js"></script>
+  <script src="resources/owlCarousel/owl.carousel.min.js"></script>
+  <script src="js/owl-carousel.js"></script>
+</body>
+
+</html>

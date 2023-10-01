@@ -1,0 +1,45 @@
+
+//border radious
+$border-radius: 0.04rem;
+
+$primary: #0000000f;
+$secondary: #57a4a4;
+$danger: #ff4136;
+$info: #a0688b;
+$body-color: #5c5c5c;
+$headings-color: #4e4e4e;
+$link-color: #3a3a3a;
+
+$breadcrumb-active-color: $secondary;
+
+$font-family-monospace: 'Dosis', sans-serif;
+$enable-gradients: false;
+
+//
+$link-decoration: none;
+$link-hover-color: $secondary;
+
+// dropdown menu
+$dropdown-border-radius: none;
+$dropdown-padding-y: none;
+$dropdown-spacer: 0;
+$dropdown-link-color: #e9e9e9;
+$dropdown-hover-color: $secondary;
+$dropdown-link-hover-color: $secondary;
+
+$navbar-light-active-color: $secondary;
+
+//toggle button 
+$navbar-toggler-border-radius: none;
+$navbar-toggler-focus-width: 0;
+$navbar-toggler-padding-y: 0.75rem;
+$navbar-toggler-padding-x: 0.75rem;
+
+//btn
+$btn-padding-x: 1rem;
+$btn-padding-y: 0.75rem;
+$btn-border-width: 0;
+$btn-box-shadow: none;
+
+// font sizes
+$h3-font-size: 18px;
